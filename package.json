@@ -31,7 +31,7 @@
     "istanbul": "0.4.5",
     "mocha": "3.2.0",
     "should": "12.0.0",
-    "mongoose": "4.11.8",
+    "mongoose": "4.13.11",
     "standard": "10.0.3"
   },
   "engines": {
@@ -42,8 +42,7 @@
     "lint": "eslint lib test",
     "mocha": "mocha test/*-test.js",
     "test": "npm run lint && istanbul cover _mocha --report lcovonly -- test/*-test.js",
-    "coverage": "cat ./coverage/lcov.info | coveralls",
-    "changelog": "changelog mongoosastic/mongoosastic latest -m"
+    "coverage": "cat ./coverage/lcov.info | coveralls"
   },
   "license": "MIT"
 }
